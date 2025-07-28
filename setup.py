@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'spawn_turtle_client = turtle_eater.spawn_turtle_client:main'
         ],
     },
 )
